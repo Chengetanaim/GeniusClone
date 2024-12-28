@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Genuius Clone using TailwindCSS</title>
+    <link rel="stylesheet" href="output.css">
+</head>
+<body class="font-sans">
+    <nav class="flex items-center justify-between bg-geniusYellow h-10">
+        <div class="p-2">
+            <input class="outline-none text-black text-lg placeholder:text-black" type="text" placeholder="Search lyrics & more">
+        </div>
+        <div class="p-2">
+            <h1 class="text-xl">G E N I U S</h1>
+        </div>
+        <div class="p-2 flex space-x-4">
+            <a class="text-sm" href="#">SIGN UP</a>
+            <a class="text-sm" href="#">SIGN IN</a>
+        </div>
+    </nav>
+    <nav>
+        <div class="flex justify-center space-x-1 bg-black text-white p-2">
+            <a href="#">2024, IN REVIEW &nbsp; &nbsp; &nbsp;</a>
+            <a href="#">| &nbsp; &nbsp; &nbsp;  FEATURED &nbsp; &nbsp; &nbsp; </a>
+            <a href="#">| &nbsp; &nbsp; &nbsp; CHARTS &nbsp; &nbsp; &nbsp; </a>
+            <a href="#">| &nbsp; &nbsp; &nbsp;  VIDEOS &nbsp; &nbsp; &nbsp;</a>
+            <a href="#">| &nbsp; &nbsp; &nbsp; PROMOTE YOUR MUSIC &nbsp; &nbsp; &nbsp; </a>
+            <div class="flex space-x-3 ">
+                <a href="#">| &nbsp; &nbsp; &nbsp; </a>
+                <a href="#">F</a>
+                <a href="#">X</a>
+                <a href="#">I</a>
+                <a href="#">Y</a>
+            </div>
+        </div>
+    </nav>
+    <div class="flex px-32 py-16 space-x-10">
+        <div class="flex flex-col space-y-4 w-5/12">
+            <div class="flex space-x-2 items-center">
+                <h4>NEWS</h4>
+                <div class="flex-grow border-t-2 border-black"></div>
+            </div>
+            
+            <a href="#" class="text-3xl hover:underline text-gray-900 hover:decoration-gray-500 decoration-1">Hark! The Top 10 Holiday Songs of 2024 According to Genius Data</a>
+            <p>All we want for Christmas is lists!</p>
+            <p class="text-sm">by Ken Partridge / <span class="text-gray-400">Dec 19 2024</span></p>
+        </div>
+        <div class="w-7/12">
+            <img  src="https://t2.genius.com/unsafe/1336x752/https%3A%2F%2Fimages.genius.com%2Fa5ae9529c3b3816ea2386a56c0798ec7.1920x1080x1.png"
+                alt="">
+        </div>
+    </div>
+    
+    <div class="px-32 flex space-x-8 py-16">
+        <!-- Article 1 -->
+        <div class="flex space-x-4 w-1/4">
+            <div class="flex flex-col space-y-24">
+                <div class="flex flex-col space-y-2 h-1/2">
+                    <a href="#">NEWS</a>
+                    <a href="#" class="text-2xl hover:underline hover:decoration-gray-500 decoration-1">Hark! The Top 10 Holiday Songs of 2024 According To Genius Data</a>
+                </div>
+                <div class="flex flex-col space-y-1 h-1/2">
+                    <p class="text-sm">by Ken Partridge / <span class="text-gray-400">Dec 19 2024</span></p>
+                    <img class="w-full h-40 "
+                        src="https://t2.genius.com/unsafe/504x284/https%3A%2F%2Fimages.genius.com%2Fa5ae9529c3b3816ea2386a56c0798ec7.1920x1080x1.png"
+                        alt="">
+                </div>
+            </div>
+            <div class="border-r-2 border-black"></div>
+        </div>
+
+        <!-- Article 2 -->
+        <div class="flex space-x-4 w-1/4">
+            <div class="flex flex-col space-y-24">
+                <div class="flex flex-col space-y-2 h-1/2">
+                    <a href="#">FEATURE</a>
+                    <a href="#" class="text-2xl hover:underline hover:decoration-gray-500 decoration-1">Genius Community Playlist December 2024</a>
+                </div>
+                <div class="flex flex-col space-y-1 h-1/2">
+                    <p class="text-sm">by worstofalltime / <span class="text-gray-400">Dec 21 2024</span></p>
+                    <img class="w-full h-40 "
+                        src="https://t2.genius.com/unsafe/504x284/https%3A%2F%2Fimages.genius.com%2Fd0a2820083c087269b88dc730a574ada.1920x1080x10.gif"
+                        alt="">
+                </div>
+            </div>
+            <div class="border-r-2 border-black"></div>
+        </div>
+
+        <!-- Article 3 -->
+        <div class="flex space-x-4 w-1/4">
+            <div class="flex flex-col space-y-24">
+                <div class="flex flex-col space-y-2 h-1/2">
+                    <a href="#">NEWS</a>
+                    <a href="#" class="text-2xl hover:underline hover:decoration-gray-500 decoration-1">Read All The Lyrics To SZA’s New Album ‘SOS Deluxe: LANA’</a>
+                </div>
+                <div class="flex flex-col space-y-1 h-1/2">
+                    <p class="text-sm">by Ken Partridge / <span class="text-gray-400">Dec 21 2024</span></p>
+                    <img class="w-full h-40 "
+                        src="https://t2.genius.com/unsafe/284x284/https%3A%2F%2Fimages.genius.com%2F62ad9388374b3d82f5eed808289721ee.1000x1000x1.png"
+                        alt="">
+                </div>
+            </div>
+            <div class="border-r-2 border-black"></div>
+        </div>
+
+        <!-- Article 4 -->
+        <div class="flex space-x-4 w-1/4">
+            <div class="flex flex-col space-y-24">
+                <div class="flex flex-col space-y-2 h-1/2">
+                    <a href="#">NEWS</a>
+                    <a href="#" class="text-2xl hover:underline hover:decoration-gray-500 decoration-1">SZA Tries To Get Her Head Right On New Song “Drive”</a>
+                </div>
+                <div class="flex flex-col space-y-1 h-1/2">
+                    <p class="text-sm">by Ken Partridge / <span class="text-gray-400">Dec 20 2024</span></p>
+                    <img class="w-full h-40 "
+                        src="https://t2.genius.com/unsafe/284x284/https%3A%2F%2Fimages.genius.com%2F62ad9388374b3d82f5eed808289721ee.1000x1000x1.png"
+                        alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- CHARTS -->
+    <div class="px-32">
+        <div class="flex items-center justify-between">
+            <h1 class="text-6xl font-bold">CHARTS</h1>
+            <input class="border border-black p-2 w-60 placeholder:text-sm placeholder:text-black hover:cursor-pointer outline-none" type="text" placeholder="SONGS / ALL GENRES / TODAY ">
+        </div>
+        <div class="flex space-y-1 justify-between p-3 hover:bg-gray-100 hover:cursor-pointer">
+            <div>1</div>
+            <div>Last Christmas Lyrics</div>
+            <div>Wham!</div>
+            <div>68</div>
+            <div>3.1M</div>
+
+        </div>
+    </div>
+
+       
+    
+   
+</body>
+</html>
